@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.test {
+  /* width: 100wh;
+  height: 90vh; */
+  color: #fff;
+
+  /*generic blue*/
+  /* background: linear-gradient(45deg, #0070b7, #3e8bd5, #62a8f4, #3384cd, #004a8c); */
+
+  /*snow colored*/
+  /* background: linear-gradient(-45deg, #ffffff, #e4f3ff, #b9e1ff, #a6d9ff, #80c8ff); */
+
+  /* black color */
+  /* background: linear-gradient(-45deg, #000000, #5e5e5e, #919191); */
+
+  /* aurora gradient */
+  /* background: linear-gradient(45deg, #c095ad, #50aca8, #6290ad, #664e6f); */
+  background: linear-gradient(45deg, #efd5d6, #c095ad, #5b6d8e, #50aca8, #6290ad, #317e61);
+
+  /* background: linear-gradient(45deg, #a1c4fd, #c2e9fb); */
+  background-size: 300% 300%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  }
+
+  @-webkit-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  @keyframes Gradient {
+    0% {
+    background-position: 0% 50%
+    }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+  }
+  
+  /* h1,
+  h6 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    }
+  
+  button {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 48%;
+  } */

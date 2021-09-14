@@ -1,0 +1,11 @@
+.home-column{
+    height: 1024px;
+    .background{
+        position: absolute;
+        top: -26%;
+        height: 126%;
+        width: 100%;
+        background-image: url('../../../Resources/northernLights.jpg');
+        background-size: 1920px, 1080px;
+    }
+}
